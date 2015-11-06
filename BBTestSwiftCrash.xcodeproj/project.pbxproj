@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202179FD98A430A443E768F6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD63FE435BCECA49DDA707C /* CoreTelephony.framework */; };
+		5372FC2053D5F6D0AA2A28C0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23033DF4378C511F8B66B12 /* AssetsLibrary.framework */; };
+		6326D254625F2A01F3F7A092 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E9AE4A4AA697AF22F44C8B /* CoreText.framework */; };
+		689FEBDB0351D5BB8264C78E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F918F81BC65644A5369B25 /* SystemConfiguration.framework */; };
 		F00D048C1BED1ABC009BA88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D048B1BED1ABC009BA88C /* AppDelegate.swift */; };
 		F00D048E1BED1ABC009BA88C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D048D1BED1ABC009BA88C /* ViewController.swift */; };
 		F00D04911BED1ABC009BA88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00D048F1BED1ABC009BA88C /* Main.storyboard */; };
 		F00D04931BED1ABC009BA88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00D04921BED1ABC009BA88C /* Assets.xcassets */; };
 		F00D04961BED1ABC009BA88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00D04941BED1ABC009BA88C /* LaunchScreen.storyboard */; };
+		F86B2714014A7CA02F13BACE /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082F5814DFB0B41F5C6A88FF /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082F5814DFB0B41F5C6A88FF /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		27E9AE4A4AA697AF22F44C8B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		72F918F81BC65644A5369B25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A23033DF4378C511F8B66B12 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DFE8D7FA3DA34C0AEAEEBD5A /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F00D04881BED1ABC009BA88C /* BBTestSwiftCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestSwiftCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00D048B1BED1ABC009BA88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F00D048D1BED1ABC009BA88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,7 @@
 		F00D04921BED1ABC009BA88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F00D04951BED1ABC009BA88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F00D04971BED1ABC009BA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD63FE435BCECA49DDA707C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86B2714014A7CA02F13BACE /* BuddyBuildSDK.framework in Frameworks */,
+				5372FC2053D5F6D0AA2A28C0 /* AssetsLibrary.framework in Frameworks */,
+				6326D254625F2A01F3F7A092 /* CoreText.framework in Frameworks */,
+				202179FD98A430A443E768F6 /* CoreTelephony.framework in Frameworks */,
+				689FEBDB0351D5BB8264C78E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5DE7E7AC7A29375501281B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082F5814DFB0B41F5C6A88FF /* BuddyBuildSDK.framework */,
+				A23033DF4378C511F8B66B12 /* AssetsLibrary.framework */,
+				27E9AE4A4AA697AF22F44C8B /* CoreText.framework */,
+				FBD63FE435BCECA49DDA707C /* CoreTelephony.framework */,
+				72F918F81BC65644A5369B25 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F00D047F1BED1ABC009BA88C = {
 			isa = PBXGroup;
 			children = (
 				F00D048A1BED1ABC009BA88C /* BBTestSwiftCrash */,
 				F00D04891BED1ABC009BA88C /* Products */,
+				3F5DE7E7AC7A29375501281B /* Frameworks */,
+				DFE8D7FA3DA34C0AEAEEBD5A /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,11 +281,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestSwiftCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestSwiftCrash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "43953b8a-2990-438c-8de8-481590bf2843";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -264,11 +299,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestSwiftCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestSwiftCrash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "43953b8a-2990-438c-8de8-481590bf2843";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -291,6 +331,7 @@
 				F00D049C1BED1ABC009BA88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
